@@ -1,0 +1,57 @@
+// Colors
+//
+// Grayscale and brand colors
+
+// Start with assigning color names to specific hex values.
+$white:     #fff !default;
+$black:     #000 !default;
+$gray-dark: #1a1a1a !default;
+
+
+// Reassign color vars to semantic color scheme
+$brand-primary: $black !default;
+
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:    $white !default;
+$body-color: $gray-dark !default;
+
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:            $brand-primary !default;
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
+
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-base: Arial, Helvetica, sans-serif !default;
+
+$font-size-base:   16px !default;
+
+$font-weight-regular: normal !default;
+$font-weight-bold:    bold !default;
+
+$font-weight-base: $font-weight-regular !default;
+$line-height-base: 1.25 !default;
+
+
+// Media Query breakpoints
+// ------------------------------------
+
+$mq-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
